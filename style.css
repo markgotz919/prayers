@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(243, 237, 237);
+}
+
+#header-container {
+    margin:auto;
+}
+
+    h1 {
+    font-size: 72px;
+    text-align: center
+    }
+
+    h2 {
+    font-size: 56px;
+    text-align: center   
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around
+}
+
+.flex-item {
+  background: #328cc1;
+  padding: 15px;
+  width: 400px;
+  height: 400px;
+  margin-top: 30px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center
+    
+}
+
+#christianity {
+    background-image: url(cross.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%
+}
+#judaism {
+    background-image: url(StarDavid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%
+}
+
+#islam {
+    background-image: url(StarAndCrescent.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%
+}
+
+#buddhism {
+    background-image: url(DharmaWheel.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%
+}
+
+#hinduism {
+    background-image: url(om.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%
+}
+
+#other {
+    background-image: url(other.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%
+}
+
+
