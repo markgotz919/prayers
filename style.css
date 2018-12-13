@@ -6,6 +6,27 @@
     background-size: cover;
 }
 
+.topnav {
+    background-color: #0b3c5d;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(86, 103, 196);
+}
+
     h1 {
     font-size: 96px;
     text-align: center;
@@ -40,6 +61,9 @@ p {
     font-size: 36px;
     margin-left: 10%;
    
+}
+blockquote{
+    margin-left: 10%;
 }
 
 .flex-container {
@@ -147,7 +171,59 @@ p {
     border-radius: 35px;  
 }
 
+
+
+.prayer-box-short-prayer {
+    width: 90%;
+    height: 40em;
+    background-color: #E8E8E8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 35px;  
+   
+}
+
+
 img {
+
     float: right;
     margin-right: 3%;
+}
+
+#francis {
+    margin-top: 3%;
+    border: 5px solid #64647e;
+    border-radius: 35px;  
+
+}
+
+#jesus {
+    float:right;
+    margin-right: 3%;
+    margin-top: -3%;
+    border: 20px solid #64647e;
+    border-radius: 35px;  
+
+}
+
+#star {
+    border: 20px solid #64647e;
+    border-radius: 35px;  
+}
+
+#prophet {
+border: 20px solid #64647e;
+    border-radius: 35px; 
+    margin-top:5%;
+} 
+
+#avalokiteshvara {
+    border: 20px solid #64647e;
+    border-radius: 35px; 
+    margin-top:5%;
+
 }
